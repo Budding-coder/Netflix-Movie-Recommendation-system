@@ -20,14 +20,14 @@ Netflix provided a lot of anonymous rating data, and a prediction accuracy bar t
 
 ## Sources
 
-https://www.netflixprize.com/rules.html</li>
-https://www.kaggle.com/netflix-inc/netflix-prize-data</li>
-Netflix blog: https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429 (very nice blog)</li>
-surprise library: http://surpriselib.com/ (we use many models from this library)</li>
-surprise library doc: http://surprise.readthedocs.io/en/stable/getting_started.html (we use many models from this library)</li>
-installing surprise: https://github.com/NicolasHug/Surprise#installation </li>
-Research paper: http://courses.ischool.berkeley.edu/i290-dm/s11/SECURE/a1-koren.pdf (most of our work was inspired by this paper)</li>
-SVD Decomposition : https://www.youtube.com/watch?v=P5mlg91as1c </li>
+1. https://www.netflixprize.com/rules.html</li>
+2. https://www.kaggle.com/netflix-inc/netflix-prize-data</li>
+3. Netflix blog: https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429 (very nice blog)</li>
+4. surprise library: http://surpriselib.com/ (we use many models from this library)</li>
+5. surprise library doc: http://surprise.readthedocs.io/en/stable/getting_started.html (we use many models from this library)</li>
+6. installing surprise: https://github.com/NicolasHug/Surprise#installation </li>
+7. Research paper: http://courses.ischool.berkeley.edu/i290-dm/s11/SECURE/a1-koren.pdf (most of our work was inspired by this paper)</li>
+8. SVD Decomposition : https://www.youtube.com/watch?v=P5mlg91as1c </li>
 
 ## Real world/Business Objectives and constraints 
 
@@ -53,16 +53,15 @@ As many users watch minimum number of movies a day, netflix can take hours and c
 ## Data Overview 
 
 Get the data from : https://www.kaggle.com/netflix-inc/netflix-prize-data/data </p>
-<p> Data files : 
-<ul> 
-<li> combined_data_1.txt </li>
-<li> combined_data_2.txt </li>
-<li> combined_data_3.txt </li>
-<li> combined_data_4.txt </li>
-<li> movie_titles.csv   -- It has movie id and movie name</li>
-</ul>
-<pre>  
-The first line of each file [combined_data_1.txt, combined_data_2.txt, combined_data_3.txt, combined_data_4.txt] contains the movie id followed by a colon. 
+Data files : 
+ 
+combined_data_1.txt </li>
+combined_data_2.txt </li>
+combined_data_3.txt </li>
+combined_data_4.txt </li>
+movie_titles.csv   -- It has movie id and movie name</li>
+
+The first line of each file combined_data_1.txt, combined_data_2.txt, combined_data_3.txt, combined_data_4.txt ,contains the movie id followed by a colon. 
 Each subsequent line in the file corresponds to a rating from a customer and its date in the following format:
 
 CustomerID,Rating,Date
